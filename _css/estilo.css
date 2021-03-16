@@ -24,7 +24,7 @@ div#interface {
 
 p{
     text-align: justify;
-    text-indent: 50px;
+    text-indent: 40px;
 }
 
 a{
@@ -91,7 +91,7 @@ figure.foto-legenda figcaption {
     transition: opacity 1s;
 }
 
-figure.foto-legenda.hover figcaption{
+figure.foto-legenda:hover figcaption{
 opacity: 1;
 }
 
@@ -117,7 +117,7 @@ margin: 2px;
 transition: background-color 1s;
 }
 
-nav#menu li.hover {
+nav#menu li:hover {
 background-color: #606060
 }
 
@@ -130,7 +130,7 @@ nav#menu a{
     text-decoration: none;
 }
 
-nav#menu a.hover {
+nav#menu a:hover {
     color: #ffffff;
     text-decoration: underline; 
 }
